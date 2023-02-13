@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.book-list {
+    margin-top: 40px;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: #eea8a8cc;
+    margin-bottom: 20px;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {cursor: pointer;
+    padding: 8px;
+    background-color: #8ea5f7;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
