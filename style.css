@@ -19,6 +19,8 @@
     align-self: center;
     background-color: #eea8a8cc;
     margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .book-info {
@@ -28,12 +30,14 @@
 .btns {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn {cursor: pointer;
-    padding: 8px;
+    padding: 10px;
     background-color: #8ea5f7;
+    border-radius: 4px;
+    border: none;
 }
 
 .btn:hover {
